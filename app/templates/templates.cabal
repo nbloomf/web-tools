@@ -60,3 +60,42 @@ executable wt-01-hamlet-logic
     , blaze-builder >=0.4.1.0
     , http-types >=0.12.3
     , shakespeare >=2.0.24
+
+executable wt-01-lucius-basic
+  main-is: LuciusBasic.hs
+  default-language: Haskell2010
+  hs-source-dirs: app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , text >=1.2.4.0
+    , blaze-html >=0.9.1.2
+    , blaze-builder >=0.4.1.0
+    , http-types >=0.12.3
+    , shakespeare >=2.0.24
+
+executable wt-01-template-file
+  main-is: TemplateFile.hs
+  default-language: Haskell2010
+  hs-source-dirs: app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , text >=1.2.4.0
+    , blaze-html >=0.9.1.2
+    , blaze-builder >=0.4.1.0
+    , http-types >=0.12.3
+    , shakespeare >=2.0.24
+
+executable wt-01-i18n
+  main-is: I18n.hs
+  default-language: Haskell2010
+  hs-source-dirs: app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , text >=1.2.4.0
+    , blaze-html >=0.9.1.2
+    , blaze-builder >=0.4.1.0
+    , http-types >=0.12.3
+    , shakespeare >=2.0.24
