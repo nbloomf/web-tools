@@ -1,0 +1,51 @@
+cabal-version:  1.12
+name:           widgets
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/nbloomf/web-tools#readme>
+homepage:       https://github.com/nbloomf/web-tools#readme
+bug-reports:    https://github.com/nbloomf/web-tools/issues
+author:         Nathan Bloomfield
+maintainer:     nbloomf@gmail.com
+copyright:      Automattic, Inc
+license:        BSD3
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/nbloomf/web-tools
+
+executable wt-02-widget-basic
+  default-language: Haskell2010
+  main-is: WidgetBasic.hs
+  hs-source-dirs: app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , yesod >=1.6.0.1
+
+executable wt-02-widget-combine
+  default-language: Haskell2010
+  main-is: WidgetCombine.hs
+  hs-source-dirs: app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , yesod >=1.6.0.1
+
+executable wt-02-widget-templates
+  default-language: Haskell2010
+  main-is: WidgetTemplates.hs
+  hs-source-dirs: app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , yesod >=1.6.0.1
+
+executable wt-02-widget-layout
+  default-language: Haskell2010
+  main-is: WidgetLayout.hs
+  hs-source-dirs: app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , yesod >=1.6.0.1

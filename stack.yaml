@@ -3,3 +3,4 @@ resolver: lts-15.15
 packages:
 - app/helloworld/
 - app/templates/
+- app/widgets/
